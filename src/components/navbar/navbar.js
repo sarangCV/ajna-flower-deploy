@@ -23,7 +23,7 @@ function Navbar() {
             <ul className={clicked ? "nav-menu active" : "nav-menu"}>
                 <button className="signout-button-nav" onClick={handleLogout}>Sign Out</button>
             </ul>
-            <button className="signout-button">Sign Out</button>
+            <button className="signout-button" onClick={handleLogout}>Sign Out</button>
         </nav>
     )
 }
