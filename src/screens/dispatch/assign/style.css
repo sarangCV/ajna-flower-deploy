@@ -1,0 +1,36 @@
+.item-price-date {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7px;
+}
+.item-price {
+    align-items: center;
+}
+.find-items-btn-container {
+    display: flex;
+    width: 100%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+}
+.find-items-btn-container button{
+    padding: 8px;
+    width: 270px;
+    border: none;
+    background-color: rgb(12, 138, 12);
+    color: #fff;
+    border-radius: 4px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+.find-items-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 30px;
+    background-color: blue;
+}

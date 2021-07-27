@@ -1,0 +1,28 @@
+*{
+    margin: 0; 
+    padding:0; 
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(228, 226, 226);
+}
+.home-content {
+    width: 80vw; 
+    height: auto; 
+    margin: auto;
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    transition: all 0.2 linear;
+    /* background-color: aqua; */
+}
+@media (max-width: 768px) {
+    .home-container {
+        height:auto;
+     }
+}

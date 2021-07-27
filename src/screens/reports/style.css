@@ -1,0 +1,22 @@
+.reports-footer {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.reports-footer .button-container button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

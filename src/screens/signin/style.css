@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 226, 226);
+}
+form {
+    display: block;
+    position: relative;
+}
+form .form-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 50px;
+    z-index: 2;
+    width: 50vh;
+    height: 60vh;
+}
+form .form-inner img{
+   height: 150px;
+   width: 150px;
+   /* position: absolute; */
+   /* top: 15px; */
+   /* right: 210px; */
+}
+form .form-inner h2{
+   /* margin-left: 50px; */
+}
+form .form-inner p{
+    color: rgb(204, 27, 27);
+ }
+form .form-inner .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #666;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+form .form-inner .form-group label{
+    /* display: flex; */
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 10px;
+    /* margin-bottom: 5px; */
+}
+form .form-inner .form-group input {
+    /* display: block; */
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 2px rgb(75, 64, 230);;
+    border-color: rgb(75, 64, 230);
+    border-radius: 5px;
+    border-width: 1px;
+    transition: 0.4s;
+}
+form .form-inner .submit-btn {
+    background-color: rgb(75, 64, 230);
+    padding: 10px;
+    width: 40%;
+    border: 0;
+    outline: none;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+form .form-inner .submit-btn:hover {
+    background-color: rgb(49, 37, 224);
+    cursor: pointer;
+}

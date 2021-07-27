@@ -1,0 +1,405 @@
+html, 
+body {
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+}
+/* HEADER SECTION */
+.dispatch-container {
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: rgb(255, 0, 0); */
+}
+/* CONTENT SECTION */
+.dispatch-content {
+    /* width: 50vw; 
+    padding: 5px;
+    height: auto; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: center;
+    transition: all 0.2 linear; */
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* margin: auto; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px 20px 60px 20px;
+    /* background-color: aqua; */
+}
+.date-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 325px;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.date-picker {
+    border: none;
+}
+.react-date-picker__wrapper {
+    border: none
+}
+
+.Showcase .react-component > * {
+    box-shadow: 0 30px 40px 0 rgb(16 36 94 / 20%);
+}
+.date-container h3{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+
+}
+
+.inner-box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* height: 30px; */
+    /* background-color: red; */
+
+}
+/* .inner-box-sub-container {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} */
+.inner-box-container p{
+    display: flex;
+    flex: 1;
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+/* .inner-box-sub-container p{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 20px;
+} */
+.input-container {
+    display: flex;
+    flex: 4;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: plum; */
+}
+/* .input-sub-container {
+    display: flex;
+    flex: 4;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+} */
+
+.dispatch-input-select {
+    width: 35%;
+    height: auto;
+}
+.input-container input{
+    height: auto;
+    width: 40%;
+    padding: 9px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 4px;
+}
+/* .input-sub-container input{
+    height: auto;
+    width: 40%;
+    padding: 8px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 4px;
+} */
+.input-container input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 2px #3b7afe;
+}
+.action-icon-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    /* background-color: powderblue; */
+}
+.action-icon-container i {
+    cursor: pointer;
+}
+
+.dispatch-footer {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.dispatch-footer .button-container button{
+    width: 48%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 450PX;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/* TRANSPORT DETAILS SCREEN */
+
+.transport-box-container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+.transport-id-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    justify-content: space-between;
+    margin: 10px 0px;
+
+}
+.transport-box-select {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    /* background-color: #3b7afe; */
+    margin: 10px 0 5px 0;
+}
+.transport-input-select {
+    width: 100%;
+}
+.transport-input-section {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    justify-content: space-between;
+    /* background-color: #3b7afe; */
+}
+.transport-date-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+.transport-date-container .departure-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+}
+.transport-date-container .arrival-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+}
+.transport-date-container h3{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(129, 129, 129);
+}
+.fa-trash-alt {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* DISPATCHES SCREEN */
+
+.dispatches-toggle-container {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    /* background-color: rgb(226, 12, 12); */
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    margin-bottom: 10px;
+    /* padding: 10px 10px; */
+}
+.dispatches-tab-button {
+    display: flex;
+    flex:1;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.dispatch-item {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 0 20px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    margin: 20px 0;
+    background-color: #ffffff;
+
+}
+
+.dispatch-item-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.dispacth-item-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+.dispacth-item-date h3 {
+    font-size: 15px;
+    color: #fff;
+}
+.dispatch-item-box {
+    display: flex;
+}
+.dispatch-item-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+}
+.dispatch-item-details h3{
+    font-size: 15px;
+}
+.dispatch-item-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #d4d4d4;
+}
+.dispatch-item-bottom-container h3{
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 960px) {
+    
+    .box-container {
+        width: 100%;
+    }
+    .inner-box-container p{
+        display: flex;
+        flex: 1;
+        /* background-color: blue; */
+        margin: 0;
+    }
+    .input-container {
+        display: flex;
+        flex: 5;
+        /* background-color: red; */
+    }
+    .dispatch-input-select {
+        width: 45%;
+        height: auto;
+    }
+    .action-icon-container {
+        display: flex;
+        flex: 1 1;
+        justify-content: space-around;
+        /* background-color: powderblue; */
+    }
+    .input-container input{
+        width: 45%;
+    }
+    .floating-button {
+        display: none;
+    }
+    .button-container {
+        width: 100%;
+    }
+    .date-container {
+        left: 0px;
+        font-size: 13px;
+        width: 100%;
+        justify-content: space-between;
+        padding: 7px
+    }
+    .date-container h3{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    /* TRANSPORT DETAILS SCREEN */
+    .transport-box-container {
+        width: 100% !important;
+    }
+    .transport-date-container {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .transport-date-container .departure-date, .transport-date-container .arrival-date {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    /* DISPATCHES SCREEN */
+
+    .dispatch-item {
+        width: 100% !important;
+    
+    }
+    .dispatches-toggle-container {
+        width: 100% !important;
+        
+    }
+}
