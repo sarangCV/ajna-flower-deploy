@@ -56,6 +56,7 @@ function Dispatch() {
         setDispatches(filteredDispatches)
         console.log(filteredDispatches)
     }
+    
     const duplicateBoxes = (item) => {
         const currentIndex = dispatches.indexOf(item)
         const lastIndex = dispatches[currentIndex].items.length-1
